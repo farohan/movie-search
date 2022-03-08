@@ -21,7 +21,7 @@ submitButton.onclick = async function fetchMovie() {
     //Setting the API url
 
     const apiKey = 'dc643bbb';
-    let url = `http://www.omdbapi.com/?apikey=${apiKey}&t=${movieQuery}&plot=full`;
+    let url = `https://www.omdbapi.com/?apikey=${apiKey}&t=${movieQuery}&plot=full`;
 
     //Fetching actual data from OMDb
 
