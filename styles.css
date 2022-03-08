@@ -1,0 +1,36 @@
+#search-results {
+    height: auto;
+    width: 80vw;
+    margin: 3rem auto;
+    padding: 1rem;
+    background: rgba(52, 113, 243, 0.8);
+    border-radius: 7px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.piece {
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#movie-img {
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 850px) {
+    #search-results {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #two {
+        width: 90%;
+    }
+}
